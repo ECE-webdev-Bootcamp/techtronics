@@ -52,8 +52,28 @@ body{
 }
 
 .section-1 img{
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
+
+.section-2{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 2rem;
+}
+
+.section-2 .about h1{
+    font-size: 5rem;
+    font-family: 'Secular One', sans;
+    color: #00648E;
+    text-align: center;
+}
+
+.section-2 .about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
