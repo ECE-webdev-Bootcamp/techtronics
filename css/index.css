@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Inter:wght@300,300&display=swap');
 body{
     background-color: #D6EEFF;
     margin:0 ;
@@ -34,6 +35,10 @@ body{
     font-family: 'Secular One', sans;
 }
 
+.other a:hover{
+    color: black;
+}
+
 .section-1{
     margin: 4rem;
     padding: 1.5rem;
@@ -55,8 +60,42 @@ body{
     width: 40%;
     float: right;
 }
+.title{
+    font-size: 2rem;
+    font-family: 'Secular One', sans;
+    color: #00648E;
+    text-align: center;
+}
+.content-section{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1.5rem;
+}
 
+.image-section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
+}
+.content-section .content p{
+    margin-top: 10px;
+    line-height: 1.6;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    padding-top: 1.5vh;
+    padding-left: 1.5vh;
+    font-size: 1.6rem;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-color: #d2edf8;
+}
+.button{
+    padding: 5px;
+}
 .section-2{
     margin-left: 4rem;
     margin-right: 4rem;
