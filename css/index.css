@@ -63,6 +63,20 @@ body{
 .section-1 img{
     width: 40%;
     float: right;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
 }
 .title{
     font-size: 2rem;
