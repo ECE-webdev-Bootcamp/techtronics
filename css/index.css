@@ -69,22 +69,26 @@ body{
 .image-section{
     margin-left: 30px;
     height: 180px;
-    padding-left: 15vh;
-    background-color: #c8edfd;
+    padding-left: 17vh;
+    background-color: #d2edf8;
 }
 .content-section .content p{
     margin-top: 10px;
     line-height: 1.6;
+    text-align: center;
 }
 .content{
+    text-align: center;
     padding-top: 1.5vh;
     padding-left: 1.5vh;
     font-size: 1.6rem;
     font-family: 'Cairo', sans-serif;
-   font-family: 'Inter', sans-serif;
-   background-color: #c8edfd;
+    font-family: 'Inter', sans-serif;
+    background-color: #d2edf8;
 }
-
+.button{
+    padding: 5px;
+}
 .section-2{
     margin-left: 4rem;
     margin-right: 4rem;
