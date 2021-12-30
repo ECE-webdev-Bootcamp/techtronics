@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+
+.container-glass{
+    margin:5rem;
+    border-radius: 7px;
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+}
+.container-glass::before,
+.container-glass::after {
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.08);
+
+}
+.container-glass {
+  position: relative;
+  padding: 2rem 1.5rem;
+  width: 80%;
+  max-width: 280px;
+}
+.container-glass::before,
+.container-glass::after {
+  content: '';
+  position: absolute;
+}
+.container-glass::before {
+  height: 80px;
+  width: 80px;
+  top: -10px;
+  left: -40px;
+  z-index: -1;
+}
+.container-glass::after {
+  height: 40px;
+  width: 40px;
+  bottom: 20px;
+  right: -10px;
+  z-index: 2;
+}
+
+.container-glass .img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.container-glass .text {
+  font-size: 1.01rem;
+  color: #DDD;
+  margin: 2rem 0;
+  text-align: justify;
+}
+
+.container-glass .btn {
+  display: block;
+  margin: auto;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.02rem;
+  width: 80%;
+  max-width: 200px;
+  padding: .6rem 1rem;
+  background-color: transparent;
+  border: 1px solid #ffdd00;
+  border-radius: 5px;
+  color: #ffdd00;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.container-glass .btn:hover {
+  background-color: #ffdd00;
+  color: #333;
+}
