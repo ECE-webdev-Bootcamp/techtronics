@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Inter:wght@300,300&display=swap');
+body{
+    background-image: url("/assets/background.svg");
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    /* min-height: 100vh; */
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation bar */
+.navigation-bar{
+    padding: 0.2rem;
+    /* background-color: #0890CA; */
+}
+
+.logo{
+    display: inline-block;
+    color: #D6EEFF;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-family: 'Secular One', sans;
+
+}
+.other{
+    float: right;
+    margin: 2rem;
+}
+.other > a {
+    display: inline-block;
+    color: #D6EEFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-family: 'Secular One', sans;
+}
+
+.other a:hover{
+    color: black;
+}
+
+
+
