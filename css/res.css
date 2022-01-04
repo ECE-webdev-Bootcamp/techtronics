@@ -38,9 +38,10 @@ body{
     font-family: 'Secular One', sans;
 }
 
-.other a:hover{
-    color: black;
+.other > a:hover{
+    color: #dfbb6c;
 }
+
 
 .opening-text{
     margin-left: 20px;
