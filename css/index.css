@@ -113,8 +113,7 @@ body{
 }
 .content{
     text-align: center;
-    padding-top: 1.5vh;
-    padding-left: 1.5vh;
+    padding :2rem;
     font-size: 1.6rem;
     font-family: 'Cairo', sans-serif;
     font-family: 'Inter', sans-serif;
@@ -169,3 +168,6 @@ body{
     font-family: Poppins;
 }
 
+#lab1{
+    display: none;
+}
