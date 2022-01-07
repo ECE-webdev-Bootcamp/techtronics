@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+footer
+{
+    position: relative;
+    width: 100%;
+    background-color: #fabe4f ;
+    background: linear-gradient(to bottom,#fabe4f , #e15a17 );
+    min-height: 100px;
+    padding: 20px 80px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+footer .icon
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .icon a
+{
+    list-style: none;
+    size: 10px;
+    justify-content: space-around;
+    position: linear;
+    display: inline-block;
+    align-items: center;
+    margin: 0px 31px;
+}
+
+footer .icon a:hover
+{
+    opacity: 0.75;
+    transform: translateY(-10px);
+    transition-duration: .25s;
+}
+
+footer ul
+{
+    margin-top: 0px;
+    padding: 0px;
+    font-style: none;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer ul li a
+{
+    color: #0E0E0E;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li
+{
+    display: inline-block;
+    padding: 0px 29px;
+}
+
+footer ul li:hover
+{
+    opacity: 0.8;
+}
+
+p
+{
+    color: #210a0a;
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+footer h2
+{
+    background: linear-gradient(to bottom, #bec1c7, #021122);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    font-weight: 1000;
+    font-size: 40px;
+    display: absolute;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    padding-right: 800px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
