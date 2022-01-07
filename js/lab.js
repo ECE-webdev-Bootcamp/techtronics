@@ -2,7 +2,7 @@ document.getElementById("lab1btn").onclick = function() {
     var m = document.getElementById("lab1");
     if(m.style.display == "block"){
         m.style.display = "none";
-    }else{
+    }else {
         m.style.display = "block";
     }
 }
