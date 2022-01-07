@@ -3,8 +3,8 @@
 body{
     background-image: url("/assets/background.svg");
     background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-    /* min-height: 100vh; */
+    /* background-size: 100% 100%;  */
+    height: 100vh;
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
@@ -38,9 +38,49 @@ body{
     font-family: 'Secular One', sans;
 }
 
-.other a:hover{
-    color: black;
+.other > a:hover{
+    color: #dfbb6c;
 }
 
 
+.opening-text{
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: 'Secular One', sans;
+    color: white;
+}
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+    width: 33%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 32px;
+    font-family: 'Secular One', sans;
+    color: #ff7b00
+}
+#books-header{
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #f7a85f;
+    font-size: 26px;
+}
+ul{
+    list-style-type: none;
+}
