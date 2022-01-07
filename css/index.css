@@ -121,6 +121,17 @@ body{
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
+
+.content a{
+    text-decoration: none;
+    color: rgb(238, 255, 0);
+
+    font-weight: 600;
+}
+
+.content a:hover{
+    color: black;
+}
 .button{
     padding: 5px;
 }
@@ -171,3 +182,4 @@ body{
 #lab1{
     display: none;
 }
+
