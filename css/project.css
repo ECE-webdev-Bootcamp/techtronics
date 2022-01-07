@@ -5,6 +5,11 @@
     color: #fdbb2d;
     font-family: 'Secular One', sans;
 }
+.core-title p{
+  color: #fdbb2d;
+  font-size: 1.5rem;
+
+}
   .carousel {
     display: flex;
     width: 100%;

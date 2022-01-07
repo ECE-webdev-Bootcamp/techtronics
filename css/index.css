@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Inter:wght@300,300&display=swap');
 body{
-    background-image: linear-gradient(180deg, rgb(0, 132, 255), rgb(35, 143, 245));
+    background-image: url("/assets/background.svg");
+   
     margin:0 ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,14 +14,7 @@ body{
     padding: 0.2rem;
     /* background-color: #0890CA; */
 }
-.homepage{
-    background-image: url("/assets/background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 16rem;
 
-}
 
 
 .logo{
@@ -114,12 +108,16 @@ body{
 .content{
     text-align: center;
     padding :2rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: 'Cairo', sans-serif;
-    font-family: 'Inter', sans-serif;
     background-color: rgba(255,255,255,0.2);
     backdrop-filter: blur(5px);
     border-radius: 8px;
+}
+
+.content p{
+    font-size: 1.5rem;
+
 }
 
 .content a{

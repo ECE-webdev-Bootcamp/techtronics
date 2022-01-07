@@ -3,16 +3,16 @@
 footer
 {
     position: relative;
-    width: 100%;
+    width: 91.6%;
     background-color: #fabe4f ;
-    background: linear-gradient(to bottom,#fabe4f , #e15a17 );
+    background: linear-gradient(to bottom,#f8daa2 , #f3af1d );
     min-height: 100px;
     padding: 20px 80px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 12px 12px 0px 0px;
 }
 
 footer .icon
@@ -58,7 +58,13 @@ footer ul li a
 {
     color: #0E0E0E;
     text-decoration: none;
-    opacity: 0.8;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.menu_type{
+    display: flex;
+    flex-direction: row;
 }
 
 footer ul li
@@ -81,18 +87,12 @@ p
 
 footer h2
 {
-    background: linear-gradient(to bottom, #bec1c7, #021122);
+    color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
     font-weight: 1000;
     font-size: 40px;
-    display: absolute;
+    text-align: left;
     justify-content: space-between;
-    margin-bottom: 50px;
-    margin-top: 35px;
-    padding-right: 800px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+
 
 }
