@@ -36,7 +36,8 @@
   }
 
   .carousel__item img{
-      max-width: 60%;
+      width: 400px;
+      height: 230px;
       border-radius: 12px;
       margin-top: 2rem;
       margin-left: auto;
