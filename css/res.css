@@ -77,13 +77,16 @@ body{
     padding: 10px;
     font-size: 32px;
     font-family: 'Secular One', sans;
-    color: #f89f4c
+    color: white
 }
 
 a{
     text-decoration: none;
-    color: #f7a85f;
+    color: white;
     font-size: 26px;
+}
+a:hover{
+    color: rgb(243, 208, 161);
 }
 ul{
     list-style-type: none;
