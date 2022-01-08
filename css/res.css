@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Inter:wght@300,300&display=swap');
+
+
 body{
     background-image: url("/assets/background.svg");
     background-repeat: no-repeat;
@@ -13,7 +15,7 @@ body{
 .main{
     height: 100vh;
 }
-/* Navigation bar */
+/* navigation bar */
 .navigation-bar{
     padding: 0.2rem;
     /* background-color: #0890CA; */
@@ -60,8 +62,6 @@ body{
     align-items: center;
     padding: 10px;
     margin: 50px;
-   
-
 }
 
 .cards{
@@ -71,16 +71,13 @@ body{
     align-items: center;
     background-color: rgba(255,255,255,0.2);
     backdrop-filter: blur(5px);
-    width: 33%;
+    width: 25%;
     height: 500px;
     border-radius: 10px;
     padding: 10px;
     font-size: 32px;
     font-family: 'Secular One', sans;
-    color: #eb9240
-}
-#books-header{
-    margin-bottom: 15px;
+    color: #f89f4c
 }
 
 a{
