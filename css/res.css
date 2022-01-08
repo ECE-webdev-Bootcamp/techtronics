@@ -56,6 +56,8 @@ body{
     align-items: center;
     padding: 10px;
     margin: 50px;
+   
+
 }
 
 .cards{
@@ -70,7 +72,8 @@ body{
     padding: 10px;
     font-size: 32px;
     font-family: 'Secular One', sans;
-    color: #ff7b00
+    color: #ff7b00;
+    
 }
 #books-header{
     margin-bottom: 15px;
