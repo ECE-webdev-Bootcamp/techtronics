@@ -83,8 +83,9 @@
   flex-direction: row;
 }
 .labs h1 {
-  font-size: 4.5rem;
-  color:darkblue;
+  font-size: 5rem;
+  color:white;
+  text-align: center;
 }
 .labs a {
   text-decoration: none;
@@ -103,13 +104,15 @@
 
 .container .labs a:hover{
  color: chocolate;
+ background-color:rgb(255, 192, 147);
+ border-radius: 7px;
+ padding: 5px;
 }
 #lab2 {
   font-family: 'Dongle', sans-serif;
   font-size: 2rem;
   margin-bottom: 7rem;
   padding: 24px;
-  position: relative;
   display: none;
   border: 6px solid orange;
   border-radius: 9px;
