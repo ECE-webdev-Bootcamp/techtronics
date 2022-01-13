@@ -35,7 +35,10 @@ body{
     float: right;
     margin: 2rem;
 }
-.other > a {
+.cards h3{
+    color:#fdbb2d;
+}
+.other a {
     display: inline-block;
     color: #D6EEFF;
     text-decoration: none;
@@ -44,8 +47,8 @@ body{
     font-family: 'Secular One', sans;
 }
 
-.other > a:hover{
-    color: #dfbb6c;
+.cards a:hover{
+    color: orange;
 }
 
 
