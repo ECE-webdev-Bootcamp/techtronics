@@ -52,7 +52,8 @@
 
 .container-glass .text {
   font-size: 1.01rem;
-  color: #ddd;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 2rem 0;
   text-align: justify;
 }
@@ -99,6 +100,7 @@
   display: none;
   border: 6px solid orange;
   border-radius: 9px;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
  
 }
 
@@ -116,6 +118,7 @@
   display: none;
   border: 6px solid orange;
   border-radius: 9px;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
 }
 
 @keyframes fadeInUp {
