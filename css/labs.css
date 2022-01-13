@@ -52,7 +52,8 @@
 
 .container-glass .text {
   font-size: 1.01rem;
-  color: #ddd;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 2rem 0;
   text-align: justify;
 }
@@ -83,8 +84,9 @@
   flex-direction: row;
 }
 .labs h1 {
-  font-size: 4.5rem;
-  color:darkblue;
+  font-size: 5rem;
+  color:white;
+  text-align: center;
 }
 .labs a {
   text-decoration: none;
@@ -98,21 +100,25 @@
   display: none;
   border: 6px solid orange;
   border-radius: 9px;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
  
 }
 
 .container .labs a:hover{
  color: chocolate;
+ background-color:rgb(255, 192, 147);
+ border-radius: 7px;
+ padding: 5px;
 }
 #lab2 {
   font-family: 'Dongle', sans-serif;
   font-size: 2rem;
   margin-bottom: 7rem;
   padding: 24px;
-  position: relative;
   display: none;
   border: 6px solid orange;
   border-radius: 9px;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
 }
 
 @keyframes fadeInUp {
